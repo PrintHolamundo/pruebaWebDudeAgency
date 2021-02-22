@@ -1,0 +1,430 @@
+body.root .pure-button, body.root .button-primary, body.root .button-success, body.root .button-error, body.root .button-warning, body.root .button-secondary, body.root .button-greyscale {
+    color: #fff;
+    border-radius: 0.25em;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 0.767em;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+  }
+  
+  body.root .pure-button[disabled] {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  body.root .pure-button i.fa, body.root .button-primary i.fa, body.root .button-success i.fa, body.root .button-error i.fa, body.root .button-warning i.fa, body.root .button-secondary i.fa,
+  body.root .pure-button i.far, body.root .button-primary i.far, body.root .button-success i.far, body.root .button-error i.far, body.root .button-warning i.far, body.root .button-secondary i.far,
+  body.root .pure-button i.fas, body.root .button-primary i.fas, body.root .button-success i.fas, body.root .button-error i.fas, body.root .button-warning i.fas, body.root .button-secondary i.fas {
+    margin-right: 0.5em;
+  }
+  
+  body.root .pure-button.button-rightalign i.fa, body.root .button-primary.button-rightalign i.fa, body.root .button-success.button-rightalign i.fa, body.root .button-error.button-rightalign i.fa, body.root .button-warning.button-rightalign i.fa, body.root .button-secondary.button-rightalign i.fa {
+    margin-left: 0.4em;
+    margin-right: -0.5em;
+  }
+  
+  body.root .pure-button-hover, body.root .pure-button:hover, body.root .pure-button:focus {
+    background-image: none;
+    box-shadow: none;
+    box-shadow: inset 0 -2px rgba(0,0,0,.25);
+  }
+  body.root .pure-button:active {
+    box-shadow: inset 0 2px 1px rgba(0,0,0,.2);
+  }
+  body.root .pure-button-block {
+    display: block;
+    width: 100%;
+  }
+  body.root .pure-button-centered {
+    display: block;
+    width: 10em;
+    margin: 0 auto;
+  }
+  body.root .button-primary {
+    background-color: #3aa3e3;
+  }
+  body.root .button-primary:hover, body.root .button-primary.clipboard-is-hover {
+  
+  }
+  body.root .button-primary:focus, body.root .button-primary.clipboard-is-active {
+  
+  }
+  body.root .button-success {
+    background-color: #21c3c5;
+  }
+  body.root .button-success:hover, body.root .button-success.clipboard-is-hover {
+  
+  }
+  body.root .button-success:focus, body.root .button-success.clipboard-is-active {
+  
+  }
+  body.root .button-error {
+    background-color: #D24A17;
+  }
+  body.root .button-error:hover, body.root .button-error.clipboard-is-hover {
+  
+  }
+  body.root .button-error:focus, body.root .button-error.clipboard-is-active {
+  
+  }
+  body.root .button-warning {
+    background-color: #efb57c;
+  }
+  body.root .button-warning:hover, body.root .button-warning.clipboard-is-hover {
+  
+  }
+  body.root .button-warning:focus, body.root .button-warning.clipboard-is-active {
+  
+  }
+  body.root .button-secondary {
+    background-color: #6F80B9;
+  }
+  body.root .button-secondary:hover, body.root .button-secondary.clipboard-is-hover {
+  
+  }
+  body.root .button-secondary:focus, body.root .button-secondary.clipboard-is-active {
+  
+  }
+  
+  body.root .button-tertiary {
+    background-color: #4491A9;
+  }
+  body.root .button-tertiary:hover, body.root .button-tertiary.clipboard-is-hover {
+  
+  }
+  body.root .button-tertiary:focus, body.root .button-tertiary.clipboard-is-active {
+  
+  }
+  
+  body.root .button-alternate {
+    background-color: #71859e;
+  }
+  body.root .button-alternate:hover, body.root .button-alternate.clipboard-is-hover {
+  
+  }
+  body.root .button-alternate:focus, body.root .button-alternate.clipboard-is-active {
+  
+  }
+  
+  body.root .button-light {
+    background-color: #73cbdc;
+  }
+  body.root .button-stats:hover, body.root .button-stats.clipboard-is-hover {
+  
+  }
+  body.root .button-stats:focus, body.root .button-stats.clipboard-is-active {
+  
+  }
+  body.root .button-contrast {
+    background-color: #e8e9ed;
+    color: #272b35;
+  }
+  body.root .button-contrast:hover, body.root .button-contrast.clipboard-is-hover {
+    background-color: #d4d6dd;
+  }
+  body.root .button-contrast:focus, body.root .button-contrast.clipboard-is-active {
+    background-color: #cccfda;
+  }
+  body.root .button-highcontrast {
+    background-color: #E0E0E0;
+    color: #6C6D6F;
+    text-shadow: none;
+  }
+  body.root .button-highcontrast:hover, body.root .button-highcontrast.clipboard-is-hover {
+    background-color: #ededed;
+    border-color: #dfdfdf;
+    box-shadow: inset 0 -2px rgba(0,0,0,.075);
+  }
+  body.root .button-highcontrast:focus, body.root .button-highcontrast.clipboard-is-active {
+    background-color: #fefefe;
+    box-shadow: inset 0 2px rgba(0,0,0,.05);
+  }
+  body.root .button-greyscale {
+    background-color: #ededed;
+    color: #6C6D6F;
+    text-shadow: none;
+  }
+  body.root .button-greyscale:hover, body.root .button-greyscale.clipboard-is-hover {
+    border-color: #d9d9d9;
+  }
+  body.root .button-greyscale:focus, body.root .button-greyscale.clipboard-is-active {
+    background-color: #fefefe;
+  }
+  body.root .button-subtle {
+    background-color: transparent;
+    color: #6F6F6F;
+    text-shadow: none;
+    border: 1px solid #E9E9E9;
+    font-weight: normal;
+    padding: 0.723em 0.8em;
+  }
+  body.root .button-subtle:hover, body.root .button-subtle.clipboard-is-hover {
+    background-color: #fafafa;
+    border-color: #dfdfdf;
+    box-shadow: inset 0 -2px rgba(0,0,0,.075);
+  }
+  body.root .button-subtle:focus, body.root .button-subtle.clipboard-is-active {
+    background-color: #fefefe;
+    box-shadow: inset 0 2px rgba(0,0,0,.05);
+  }
+  body.root .button-subtle.button-nohover:hover, body.root .button-subtle.button-nohover.clipboard-is-hover {
+    background-color: transparent;
+    border-color: #E9E9E9;
+    box-shadow: none;
+  }
+  body.root .button-subtleblue {
+    background-color: #f7fcff;
+    color: #6F6F6F;
+    text-shadow: none;
+    border: 1px solid #e6e6e6;
+    font-weight: normal;
+    padding: 0.723em 0.8em;
+  }
+  body.root .button-subtleblue:hover, body.root .button-subtleblue.clipboard-is-hover {
+    background-color: #edf8ff;
+    border-color: #dedede;
+    box-shadow: inset 0 -2px rgba(0,0,0,.075);
+  }
+  body.root .button-subtleblue:focus, body.root .button-subtleblue.clipboard-is-active {
+    background-color: #fefefe;
+    box-shadow: inset 0 2px rgba(0,0,0,.05);
+  }
+  body.root .button-translucent {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #6F6F6F;
+    text-shadow: none;
+    border: 1px solid #E9E9E9;
+    font-weight: normal;
+    padding: 0.723em 0.8em;
+  }
+  body.root .button-translucent:hover, body.root .button-translucent.clipboard-is-hover {
+    background-color: #fafafa;
+    border-color: #dfdfdf;
+    box-shadow: inset 0 -2px rgba(0,0,0,.075);
+  }
+  body.root .button-translucent:focus, body.root .button-translucent.clipboard-is-active {
+    background-color: #fefefe;
+    box-shadow: inset 0 2px rgba(0,0,0,.05);
+  }
+  body.root .button-solid {
+    background-color: #fff;
+    color: #6F6F6F;
+    text-shadow: none;
+    border: 1px solid #E9E9E9;
+    font-weight: normal;
+    padding: 0.723em 0.8em;
+  }
+  body.root .button-solid:hover, body.root .button-solid.zeroclipboard-is-hover {
+    background-color: #fafafa;
+    border-color: #dfdfdf;
+    box-shadow: inset 0 -2px rgba(0,0,0,.075);
+  }
+  body.root .button-solid:focus, body.root .button-solid.zeroclipboard-is-active {
+    background-color: #fefefe;
+    box-shadow: inset 0 2px rgba(0,0,0,.05);
+  }
+  body.root .button-stats {
+    background-color: #FF9333;
+  }
+  body.root .button-stats:hover, body.root .button-stats.clipboard-is-hover {
+  
+  }
+  body.root .button-stats:focus, body.root .button-stats.clipboard-is-active {
+  
+  }
+  body.root .button-dark {
+    background-color: #32383d;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+    font-weight: normal;
+    padding: 0.723em 0.8em;
+  }
+  body.root .button-dark:hover, body.root .button-dark.zeroclipboard-is-hover {
+    background-color: #3f464c;
+    box-shadow: inset 0 -2px rgba(0,0,0,.075);
+  }
+  body.root .button-dark:focus, body.root .button-dark.zeroclipboard-is-active {
+    background-color: #272c31;
+    box-shadow: inset 0 2px rgba(0,0,0,.05);
+  }
+  body.root .button-rounded {
+    padding: 0.9em;
+    border-radius: 0.75em;
+  }
+  body.root .button-xxsmall {
+    font-size: 70%;
+  }
+  body.root .button-xsmall {
+    font-size: 80%;
+  }
+  body.root .button-small {
+    font-size: 88%;
+  }
+  body.root .button-reduced {
+    font-size: 95%;
+  }
+  body.root .button-medium {
+    font-size: 110%;
+  }
+  body.root .button-large {
+    font-size: 130%;
+  }
+  body.root .button-xlarge {
+    font-size: 150%;
+  }
+  body.root .button-xxlarge {
+    font-size: 200%;
+  }
+  
+  body.root .button-inactive { opacity: 0.7; }
+  body.root .button-active { opacity: 1; }
+  
+  body.root .button-outline { background-color: transparent; border: 1px solid #E9E9E9; color: #6F6F6F; text-shadow: none; font-weight: normal; padding: 0.5em 0.65em 0.6em; }
+  body.root .button-outline:hover, body.root .button-outline.clipboard-is-hover { background-color: #fafafa; border-color: #dfdfdf; box-shadow: none; }
+  body.root .button-outline-normal { padding: 0.767em; }
+  body.root .button-outline.button-outline-solid { background-color: rgba(255, 255, 255, 0.9); }
+  body.root .button-outline.button-nohover:hover, body.root .button-outline.button-nohover.clipboard-is-hover { background-color: transparent; border-color: #E9E9E9; box-shadow: none; }
+  body.root .button-outline.button-primary { border-color: rgb(58, 163, 227, .3); color: #3aa3e3; }
+  body.root .button-outline.button-success { border-color: rgb(34, 196, 198, .3); color: #21c3c5; }
+  body.root .button-outline.button-error { border-color: rgb(210, 74, 23, .3); color: #D24A17; }
+  body.root .button-outline.button-warning { border-color: rgb(238, 181, 124, .3); color: #efb57c; }
+  body.root .button-outline.button-secondary { border-color: rgba(111, 128, 185, .3); color: #6F80B9; }
+  body.root .button-outline.button-secondary:hover, body.root .button-outline.button-secondary.clipboard-is-hover { background-color: rgba(111, 128, 185, .03); border-color: rgba(111, 128, 185, .75); color: #5b6893; }
+  body.root .button-outline.button-tertiary { border-color: rgb(68, 145, 170, .3); color: #5173d5; }
+  body.root .button-spaced {
+    padding: 0.5em 2.5em 0.6em;
+  }
+  
+  .button-pills {  }
+  body.root .button-pills .pure-button { margin-left: 0 !important; border-radius: 0; display: block; float: left; }
+  body.root .button-pills .pure-button:first-child { border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none; border-top-left-radius: 0.25em; border-bottom-left-radius: 0.25em; }
+  body.root .button-pills .pure-button:last-child { border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0.25em; border-bottom-right-radius: 0.25em; }
+  
+  .pill {
+    border-radius: 3px;
+    margin: 0 0.5em 0 0;
+    padding: 0.4em 0.75em;
+    background: #e8e9ed;
+    color: #a5aabd;
+    cursor: default;
+    line-height: 17px;
+    font-size: 90%;
+  }
+  .pill.pill-small {
+    padding: 0.2em 0.4em;
+    font-size: 80%;
+  }
+  .pill i {
+    margin: 0 0.4em 0 0;
+  }
+  .pill.pill-tag {
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    color: #414a6f;
+  }
+  .pill.pill-action {
+    cursor: pointer;
+  }
+  .pill.pill-notice {
+    color: #fff;
+    background: #f5660e;
+    position: absolute;
+    margin: 0;
+    top: 0.25em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .pill.pill-error {
+    position: absolute;
+    bottom: 4.75em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: none;
+    border: 1px solid #ca7575;
+    color: #9a2929;
+    padding: 0.2em 0.6em;
+  }
+  .pill.pill-inline {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .label {
+    padding: 3px 9px;
+    font-size: 11px;
+    text-shadow: none;
+    background-color: #E6E6E6;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    box-sizing: border-box;
+  }
+  .label-success {
+    background-color: #10CFBD;
+    color: #FFF;
+  }
+  .label-warning {
+    background-color: #F8D053;
+    color: #FFF;
+  }
+  .label-important, .label-danger {
+    background-color: #F55753;
+    color: #FFF;
+  }
+  .label-info {
+    background-color: #48B0F7;
+    color: #FFF;
+  }
+  .label-inverse {
+    background-color: #3A8FC8;
+    color: #FFF;
+  }
+  .label-subtle {
+    border: 1px solid #E9E9E9;
+    color: #d2d2d2;
+    background-color: #fff;
+    transition: border-color 150ms, color 150ms, background-color 150ms;
+  }
+  .label-subtle:hover {
+    color: #ababab;
+    border-color: #dadada;
+  }
+  
+  body.root .button-submenu { position: relative; min-width: 9em; }
+  body.root .button-submenu > ul.button-submenu-list { display: none; background: #fff; border: 1px solid #dfdfdf; border-top: none; border-radius: 0.25em; border-top-left-radius: 0; border-top-right-radius: 0; position: absolute; width: calc(100% + 2px); left: -1px; top: calc(100% - 2px); box-sizing: border-box; font-size: 11px; z-index: 999; margin: 0; padding: 0; margin: 0; overflow: visible; list-style: none; }
+  body.root .button-submenu > ul.button-submenu-list li { display: block; width: 100%; background: #fff; position: relative; border-radius: 0; padding: 0.75em 1em; box-sizing: border-box; transition: background-color 150ms; text-align: left; font-weight: normal; letter-spacing: normal; font-style: normal; }
+  body.root .button-submenu > ul.button-submenu-list li:first-child {  }
+  body.root .button-submenu > ul.button-submenu-list li:last-child { border-bottom-left-radius: 0.25em; border-bottom-right-radius: 0.25em; }
+  body.root .button-submenu > ul.button-submenu-list li i { color: #b7b7b7; }
+  body.root .button-submenu > ul.button-submenu-list li a,
+  body.root .button-submenu > ul.button-submenu-list li span { text-decoration: none; color: #56555a; }
+  body.root .button-submenu > ul.button-submenu-list li:hover { background-color: #fafafa; }
+  body.root .button-submenu > ul.button-submenu-list li:hover a,
+  body.root .button-submenu > ul.button-submenu-list li:hover span { color: #1b6e82; }
+  body.root .button-submenu > ul.button-submenu-list li:hover i { color: #1b6e82; }
+  body.root .button-submenu > ul.button-submenu-list li a[disabled],
+  body.root .button-submenu > ul.button-submenu-list li span[disabled],
+  body.root .button-submenu > ul.button-submenu-list li:hover a[disabled],
+  body.root .button-submenu > ul.button-submenu-list li:hover span[disabled] { color: #bbb; }
+  body.root .button-submenu > ul.button-submenu-list li a[disabled] i,
+  body.root .button-submenu > ul.button-submenu-list li span[disabled] i,
+  body.root .button-submenu > ul.button-submenu-list li:hover a[disabled] i,
+  body.root .button-submenu > ul.button-submenu-list li:hover span[disabled] i { color: #bbb; }
+  body.root .button-submenu:hover > ul.button-submenu-list { display: block; }
+  
+  body.root .button-submenu-large {  }
+  body.root .button-submenu-large > ul.button-submenu-list li { font-size: 120%; }
+  
+  .clipboard-clicked i { -webkit-animation: a 200ms 1 linear; animation: a 200ms 1 linear; }
+  .clipboard-clicked i::before { content: "\f00c"; font-weight: 900; }
+  
